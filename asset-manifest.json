@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RedditClone/static/css/main.db32f98f.chunk.css",
+    "main.js": "/RedditClone/static/js/main.c528a1b6.chunk.js",
+    "main.js.map": "/RedditClone/static/js/main.c528a1b6.chunk.js.map",
+    "runtime-main.js": "/RedditClone/static/js/runtime-main.3461f356.js",
+    "runtime-main.js.map": "/RedditClone/static/js/runtime-main.3461f356.js.map",
+    "static/js/2.49554939.chunk.js": "/RedditClone/static/js/2.49554939.chunk.js",
+    "static/js/2.49554939.chunk.js.map": "/RedditClone/static/js/2.49554939.chunk.js.map",
+    "index.html": "/RedditClone/index.html",
+    "precache-manifest.90457f1f6c11c7c40b16892d3afa1e7f.js": "/RedditClone/precache-manifest.90457f1f6c11c7c40b16892d3afa1e7f.js",
+    "service-worker.js": "/RedditClone/service-worker.js",
+    "static/css/main.db32f98f.chunk.css.map": "/RedditClone/static/css/main.db32f98f.chunk.css.map",
+    "static/js/2.49554939.chunk.js.LICENSE": "/RedditClone/static/js/2.49554939.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3461f356.js",
+    "static/js/2.49554939.chunk.js",
+    "static/css/main.db32f98f.chunk.css",
+    "static/js/main.c528a1b6.chunk.js"
+  ]
+}
