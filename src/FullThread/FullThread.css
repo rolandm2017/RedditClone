@@ -1,0 +1,8 @@
+.MainBody {
+	background-color: #eee;
+	width: 80%;
+	border: 1px solid black;
+	display: inline-block;
+	box-shadow: 5px 10px #ddd;
+	padding: 5px;
+}

@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import "./Thread.css";
 
 const thread = post => {
@@ -20,22 +23,24 @@ const thread = post => {
 					v
 				</button>
 			</div>
-			<div
-				onClick={post.openThread}
-				style={{
-					float: "left",
-					textAlign: "left",
-					width: "700px",
-					border: "1px solid red"
-				}}
-			>
-				<span>{post.flair}</span>
-				<span className="TitleText">{post.title}</span>
-				<p className="AuthorText">
-					Posted by u/{post.author} {post.age} ago
-				</p>
-				<p className="CommentText">{post.comments} Comments</p>
-			</div>
+			<Link to={"/" + post.id}>
+				<div
+					onClick={post.openThread}
+					style={{
+						float: "left",
+						textAlign: "left",
+						width: "700px",
+						border: "1px solid red"
+					}}
+				>
+					<span>{post.flair}</span>
+					<span className="TitleText">{post.title}</span>
+					<p className="AuthorText">
+						Posted by u/{post.author} {post.age} ago
+					</p>
+					<p className="CommentText">{post.comments} Comments</p>
+				</div>
+			</Link>
 			<br />
 		</div>
 	);
