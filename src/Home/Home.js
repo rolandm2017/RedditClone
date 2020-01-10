@@ -136,7 +136,7 @@ class Home extends Component {
 
 		const threads = (
 			<div style={{ width: "750px" }}>
-				{this.state.posts.map((post, index) => {
+				{this.props.posts.map((post, index) => {
 					return (
 						<div key={index}>
 							{/* <Link to={"/" + index}> */}

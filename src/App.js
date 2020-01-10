@@ -15,57 +15,6 @@ import Home from "./Home/Home";
 
 class App extends Component {
 	state = {
-		// posts: [
-		// 	{
-		// 		id: 0,
-		// 		upvotes: 831,
-		// 		flair: null,
-		// 		title: "New? READ ME FIRST!",
-		// 		author: "michael0x2a",
-		// 		age: "2 years",
-		// 		comments: 15
-		// 	},
-		// 	{
-		// 		id: 1,
-		// 		upvotes: 1000,
-		// 		flair: null,
-		// 		title:
-		// 			"You guys interested in a website that focuses on learning design / ux / ui / css ?",
-		// 		author: "web_dev1996",
-		// 		age: "13 hours",
-		// 		comments: 130
-		// 	},
-		// 	{
-		// 		id: 2,
-		// 		upvotes: 23,
-		// 		flair: null,
-		// 		title:
-		// 			"How would you learn to code if you had all the free time? (Enough savings to sustain yourself)",
-		// 		author: "hakerys23",
-		// 		age: "6 hours",
-		// 		comments: 9
-		// 	},
-		// 	{
-		// 		id: 3,
-		// 		upvotes: 3300,
-		// 		flair: "Resource",
-		// 		title:
-		// 			"Learn the syntax of any programming language really fast, like in minutes",
-		// 		author: "1TMission",
-		// 		age: "1 day",
-		// 		comments: 91
-		// 	},
-		// 	{
-		// 		id: 4,
-		// 		upvotes: 16,
-		// 		flair: null,
-		// 		title:
-		// 			"What tool do you use to plan your projects from scratch?",
-		// 		author: "wulfgar4president",
-		// 		age: "10 hours",
-		// 		comments: 6
-		// 	}
-		// ],
 		checkname: "test",
 		username: "",
 		loggedIn: false,
@@ -95,7 +44,8 @@ class App extends Component {
 			title: this.state.tempTitle,
 			author: this.state.username,
 			age: "1 minute [hardcoded]",
-			comments: 0
+			comments: 0,
+			postText: this.state.tempMsg
 		};
 
 		// newPosts.unshift(tempThread);
@@ -181,6 +131,7 @@ class App extends Component {
 
 const mapDispatchToProps = dispatch => {
 	return {
+		// dispatches the new post into redux state
 		makeNewPost: post => dispatch({ type: "ADD_POST", newPost: { post } })
 	};
 };

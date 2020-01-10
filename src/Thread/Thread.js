@@ -29,8 +29,8 @@ const thread = post => {
 					style={{
 						float: "left",
 						textAlign: "left",
-						width: "700px",
-						border: "1px solid red"
+						width: "700px"
+						// border: "1px solid red"
 					}}
 				>
 					<span>{post.flair}</span>

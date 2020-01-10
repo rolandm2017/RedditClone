@@ -65,9 +65,19 @@ const initialPosts = {
 const reducer = (state = initialPosts, action) => {
 	if (action.type === "ADD_POST") {
 		console.log("HEY: ", action.newPost);
+		console.log(state.posts.concat(action.newPost.post.tempThread));
 		return {
 			...state,
-			posts: state.posts.concat(action.newPost)
+			// receives newPost data from app.js
+			posts: state.posts.concat(action.newPost.post.tempThread)
+		};
+	}
+	if (action.type === "RETURN") {
+		console.log("RETURNED! ", action.payload);
+		console.log("RETURNED: ", state.posts);
+		return {
+			...state,
+			posts: state.posts.concat(action.payload)
 		};
 	}
 
