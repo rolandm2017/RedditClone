@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/RedditClone/static/css/main.11599162.chunk.css",
-    "main.js": "/RedditClone/static/js/main.e7f5d8ca.chunk.js",
-    "main.js.map": "/RedditClone/static/js/main.e7f5d8ca.chunk.js.map",
-    "runtime-main.js": "/RedditClone/static/js/runtime-main.3461f356.js",
-    "runtime-main.js.map": "/RedditClone/static/js/runtime-main.3461f356.js.map",
-    "static/js/2.175605ff.chunk.js": "/RedditClone/static/js/2.175605ff.chunk.js",
-    "static/js/2.175605ff.chunk.js.map": "/RedditClone/static/js/2.175605ff.chunk.js.map",
-    "index.html": "/RedditClone/index.html",
-    "precache-manifest.54e736718fb116f8956b0b3724e0066c.js": "/RedditClone/precache-manifest.54e736718fb116f8956b0b3724e0066c.js",
-    "service-worker.js": "/RedditClone/service-worker.js",
-    "static/css/main.11599162.chunk.css.map": "/RedditClone/static/css/main.11599162.chunk.css.map",
-    "static/js/2.175605ff.chunk.js.LICENSE": "/RedditClone/static/js/2.175605ff.chunk.js.LICENSE"
+    "main.css": "/RedditClone2/static/css/main.59ae884f.chunk.css",
+    "main.js": "/RedditClone2/static/js/main.7a67cb92.chunk.js",
+    "main.js.map": "/RedditClone2/static/js/main.7a67cb92.chunk.js.map",
+    "runtime-main.js": "/RedditClone2/static/js/runtime-main.298b1c65.js",
+    "runtime-main.js.map": "/RedditClone2/static/js/runtime-main.298b1c65.js.map",
+    "static/js/2.7233314d.chunk.js": "/RedditClone2/static/js/2.7233314d.chunk.js",
+    "static/js/2.7233314d.chunk.js.map": "/RedditClone2/static/js/2.7233314d.chunk.js.map",
+    "index.html": "/RedditClone2/index.html",
+    "precache-manifest.c7feb9e539dca48fdf7f4e93736dfa0c.js": "/RedditClone2/precache-manifest.c7feb9e539dca48fdf7f4e93736dfa0c.js",
+    "service-worker.js": "/RedditClone2/service-worker.js",
+    "static/css/main.59ae884f.chunk.css.map": "/RedditClone2/static/css/main.59ae884f.chunk.css.map",
+    "static/js/2.7233314d.chunk.js.LICENSE": "/RedditClone2/static/js/2.7233314d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.3461f356.js",
-    "static/js/2.175605ff.chunk.js",
-    "static/css/main.11599162.chunk.css",
-    "static/js/main.e7f5d8ca.chunk.js"
+    "static/js/runtime-main.298b1c65.js",
+    "static/js/2.7233314d.chunk.js",
+    "static/css/main.59ae884f.chunk.css",
+    "static/js/main.7a67cb92.chunk.js"
   ]
 }
