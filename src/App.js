@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
 import "./App.css";
 
-import Thread from "./Thread/Thread";
 import FullThread from "./FullThread/FullThread";
 import Home from "./Home/Home";
 

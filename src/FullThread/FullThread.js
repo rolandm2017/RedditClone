@@ -19,12 +19,9 @@ class fullThread extends Component {
 	componentDidMount() {
 		console.log("300: ", this.props.posts);
 		localStorage.setItem("state", JSON.stringify(this.props.posts));
-		console.log(this.props.posts);
 	}
 
 	render() {
-		console.log(this.props.posts);
-
 		// deliberate exclusion of 2nd parameter in .slice() to make it go til the end
 		const number = this.props.location.pathname.slice(1);
 		const threadTitle = this.props.posts[number]
@@ -83,4 +80,3 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(fullThread);
-// export default fullThread;
